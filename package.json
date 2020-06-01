@@ -1,0 +1,17 @@
+{
+  "name": "rpi-docker",
+  "version": "1.0.0",
+  "description": "An application to monitor a solar cell",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Vincent Costa",
+  "license": "MIT",
+  "dependencies": {
+    "onoff": "^6.0.0",
+    "ws": "7.3.0",
+    "bufferutil": "4.0.1",
+    "utf-8-validate": "5.0.2"
+  }
+}
