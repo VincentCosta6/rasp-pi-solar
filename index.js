@@ -14,7 +14,7 @@ const lowerLeft  = new gpio(14)
 const upperLeft  = new gpio(15)
 
 const leftRight = new gpio(16)
-const upDown = new gpio(16)
+const upDown = new gpio(17)
 
 console.log("Initialized GPIO pins")
 
