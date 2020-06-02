@@ -62,7 +62,7 @@ async function tick() {
 }
 
 async function checkResponses(responses) {
-    
+    console.log(responses)
 
     if(true) {
         // top sensors are brighter
