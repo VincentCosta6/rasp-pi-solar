@@ -2,9 +2,10 @@ FROM node:alpine
 
 COPY ./package.json .
 
-RUN apt-get update && apt-get install python -y
+RUN sudo apt-get update
+RUN sudo apt-get install python
 
-RUN npm install
+RUN sudo npm install
 
 COPY . .
 
