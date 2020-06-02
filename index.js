@@ -22,6 +22,9 @@ catch(e) {
 }
 
 console.log("Initialized GPIO pins")
+console.log("Beginning solar tracker")
+
+loop()
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms))
