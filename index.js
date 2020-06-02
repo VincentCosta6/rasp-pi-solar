@@ -62,6 +62,8 @@ async function tick() {
 }
 
 async function checkResponses(responses) {
+    
+
     if(true) {
         // top sensors are brighter
     }
@@ -75,5 +77,5 @@ async function checkResponses(responses) {
         // left sensors are brighter
     }
 
-    return true || true || true || true ? 10 : 1000
+    return true || true || true || true ? 1000 : 1000
 }
