@@ -8,13 +8,18 @@ if(!gpio.accessible) {
     return
 }
 
-const upperRight = new gpio(12)
-const lowerRight = new gpio(13)
-const lowerLeft  = new gpio(14)
-const upperLeft  = new gpio(15)
+try {
+    const upperRight = new gpio(17)
+    const lowerRight = new gpio(27)
+    const lowerLeft  = new gpio(22)
+    const upperLeft  = new gpio(23)
 
-const leftRight = new gpio(16)
-const upDown = new gpio(17)
+    const leftRight = new gpio(24)
+    const upDown = new gpio(25)
+}
+catch(e) {
+    console.error("Failed to init gpio pins", e)
+}
 
 console.log("Initialized GPIO pins")
 
